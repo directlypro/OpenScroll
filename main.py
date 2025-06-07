@@ -9,8 +9,8 @@ from fasthtml.common import *
 # Load ENVs
 load_dotenv()
 
-MAX_NAME_CHAR = 30
-MAX_MESSAGE_CHAR = 1500
+MAX_NAME_CHAR = 110
+MAX_MESSAGE_CHAR = 1200
 TIMESTAMP_FMT = "%Y-%m-%d %I:%M:%S %p UTC"
 
 supabase = create_client(os.getenv("SUPABASE_PROJECT_URL"), os.getenv("SUPABASE_API_KEY"))
@@ -77,7 +77,7 @@ def render_content():
         hx_post="/submit-message",
         hx_target="#message-list", #only swap the message list
         hx_swap="outerHTML",
-        hx_on__after_request="this.rest()", #rests the form after submission
+        hx_on__after_request="this.reset()", #rests the form after submission
 
     )
 
