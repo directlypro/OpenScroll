@@ -9,8 +9,8 @@ from fasthtml.common import *
 # Load ENVs
 load_dotenv()
 
-MAX_NAME_CHAR = 15
-MAX_MESSAGE_CHAR = 50
+MAX_NAME_CHAR = 30
+MAX_MESSAGE_CHAR = 200
 TIMESTAMP_FMT = "%Y-%m-%d %I:%M:%S %p UTC"
 
 supabase = create_client(os.getenv("SUPABASE_PROJECT_URL"), os.getenv("SUPABASE_API_KEY"))
