@@ -94,7 +94,7 @@ def render_content():
         form,
         Div(
             "Made with FastHTML by ",
-            A("Prov", href="https://example.com", target="_blank"),
+            A("Prov", href="https://github.com/directlypro", target="_blank"),
         ),
         Hr(),
         render_message_list(),
