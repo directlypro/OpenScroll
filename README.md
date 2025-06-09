@@ -21,7 +21,7 @@ The goal of OpenScroll is to provide a welcoming, open space for people to share
 
 ## Tech Stack
 
-- [FastHTML](https://github.com/your-fasthtml-link)
+- [FastHTML](https://github.com/directlypro/OpenScroll/)
 
 ## Contributing
 
