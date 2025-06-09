@@ -426,7 +426,7 @@ def get_messages():
 
 @rt('/')
 def get():
-    return Title("OpenScroll 📜"), render_content()
+    return Title("OpenScroll"), render_content()
 
 
 def render_message(entry):
