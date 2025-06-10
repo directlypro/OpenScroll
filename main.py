@@ -461,7 +461,7 @@ def render_message_list():
 
 def render_content():
     form = Form(
-        P("Share your scripture here!", cls="form-title"),
+        H3("Share your scripture here!"),
         Fieldset(
             Input(
                 type="text",
