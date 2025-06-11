@@ -466,7 +466,7 @@ def render_content():
             Input(
                 type="text",
                 name="name",
-                placeholder="Your name (e.g., David, Sarah, etc.)",
+                placeholder="Your name (e.g., Sihle, Kamo, etc.)",
                 required=True,
                 maxlength=MAX_NAME_CHAR,
             ),
